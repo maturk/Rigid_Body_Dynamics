@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsim.a  CMakeFiles/sim.dir/src/RB.cpp.o CMakeFiles/sim.dir/src/RBRenderer.cpp.o CMakeFiles/sim.dir/src/RBUtils.cpp.o
+/usr/bin/ranlib libsim.a

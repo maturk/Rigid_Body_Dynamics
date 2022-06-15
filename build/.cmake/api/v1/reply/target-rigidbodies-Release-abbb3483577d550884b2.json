@@ -1,0 +1,330 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/app/rigidbodies"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"create_crl_app",
+			"target_link_libraries",
+			"add_dependencies",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"src/app/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG  "
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CMM_DATA_FOLDER=\"/home/maturk/git/CMM/a5-maturk/data\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CMM_IMGUI_FONT_FOLDER=\"/home/maturk/git/CMM/a5-maturk/build/_deps/imgui-src/misc/fonts\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CRL_SHADER_FOLDER=\"/home/maturk/git/CMM/a5-maturk/src/libs/gui/shaders\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "IMGUI_IMPL_OPENGL_LOADER_GLAD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/maturk/git/CMM/a5-maturk/src/app"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/src/libs/utils/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/build/_deps/eigen-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/src/libs/gui/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/src/libs/gui/imgui_widgets/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/build/_deps/glm-src/glm/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/build/_deps/glm-src/glm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/ext/glad/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/build/_deps/glfw-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/build/_deps/imgui-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/ext/stb_image"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/build/_deps/tinyobjloader-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/maturk/git/CMM/a5-maturk/src/libs/sim/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "imgui::@a9f99adfd9f636cea434"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glad::@395c76cf0743a1c2a345"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glfw::@51deef6ddf181c39c9a3"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "tinyobjloader::@cdc8e8d9a2991e5235d6"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sim::@fe5497ffe8fb03e09480"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils::@91161f14a334b45ef1c7"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gui::@2ed5f77f88dab0313254"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Apps"
+	},
+	"id" : "rigidbodies::@ff93792cf40911dae1b8",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../libs/utils/libutils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../libs/gui/libgui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../libs/sim/libsim.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../libs/gui/libgui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../libs/utils/libutils.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../ext/glad/libglad.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLU.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../ext/ext/glfw/src/libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../ext/libimgui.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../ext/tinyobjloader/libtinyobjloader.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "rigidbodies",
+	"nameOnDisk" : "rigidbodies",
+	"paths" : 
+	{
+		"build" : "src/app",
+		"source" : "src/app"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "src/app/app.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/app/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/app/menu.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

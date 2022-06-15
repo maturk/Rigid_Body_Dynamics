@@ -1,0 +1,14 @@
+# Target labels
+ nanovg-populate
+# Source files and their labels
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/CMakeFiles/nanovg-populate
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/CMakeFiles/nanovg-populate.rule
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/CMakeFiles/nanovg-populate-complete.rule
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/nanovg-populate-install.rule
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/nanovg-populate-mkdir.rule
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/nanovg-populate-download.rule
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/nanovg-populate-update.rule
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/nanovg-populate-patch.rule
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/nanovg-populate-configure.rule
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/nanovg-populate-build.rule
+/home/maturk/git/CMM/a5-maturk/build/_deps/nanovg-subbuild/nanovg-populate-prefix/src/nanovg-populate-stamp/nanovg-populate-test.rule
