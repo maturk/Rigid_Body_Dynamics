@@ -19,7 +19,7 @@ If we use an unit quaternion for orientation instead of a rotational matrix and 
 
 where *h* is a timestep of the simulation. 
 
-### Ex.2 Springs (baseline - 20%)
+### Ex.2 Springs
 
 A spring simulator is also created. A spring is attached to a rigidbody as an external force. 
 
